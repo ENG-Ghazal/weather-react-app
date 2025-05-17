@@ -1,11 +1,10 @@
 import DisplayWeather from './components/DisplayWeather'
-import GlobalStyle from './GlobalStyles'
-
+// import GlobalStyle from './GlobalStyles'
+import './GlobalStyles.css'
 function App() {
   
   return (
     <>
-      <GlobalStyle />
       <DisplayWeather /> 
     </>
   )
